@@ -1,0 +1,35 @@
+﻿{
+  "name": "DotCore.Core",
+  "version": "1.0.1-*",
+  "title": "DotCore.Core",
+  "description": "C# core class library (.Net Core).",
+  "copyright": "Copyright 2016",
+  "authors": [
+    "Harry Y"
+  ],
+
+  "packOptions": {
+    "summary": "C# core class library for .Net Core.",
+    "tags": [
+      "DotNet Core",
+      "CSharp"
+    ],
+    "owners": [
+      "Harry Y"
+    ],
+    "releaseNotes": "Changed the license.",
+    "projectUrl": "https://github.com/harrywye/dotcore",
+    "licenseUrl": "https://github.com/harrywye/dotcore/blob/master/LICENSE",
+    "requireLicenseAcceptance": false
+  },
+
+  "dependencies": {
+    "NETStandard.Library": "1.6.0"
+  },
+
+  "frameworks": {
+    "netstandard1.4": {
+      "imports": "dnxcore50"
+    }
+  }
+}
