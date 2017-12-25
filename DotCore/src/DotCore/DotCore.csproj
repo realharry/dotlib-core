@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>C# core class library (.Net Core).</Description>
+    <Copyright>Copyright 2016</Copyright>
+    <AssemblyTitle>DotCore.Core</AssemblyTitle>
+    <VersionPrefix>1.0.1</VersionPrefix>
+    <Authors>Harry Y</Authors>
+    <TargetFramework>netstandard1.4</TargetFramework>
+    <AssemblyName>DotCore.Core</AssemblyName>
+    <PackageId>DotCore</PackageId>
+    <PackageTags>DotNet Core;CSharp</PackageTags>
+    <PackageReleaseNotes>Changed the license.</PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/harrywye/dotcore</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/harrywye/dotcore/blob/master/LICENSE</PackageLicenseUrl>
+    <NetStandardImplicitPackageVersion>1.6.0</NetStandardImplicitPackageVersion>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50</PackageTargetFallback>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+  </PropertyGroup>
+
+</Project>
